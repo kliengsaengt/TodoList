@@ -1,0 +1,78 @@
+ .list-todo-wrapper{
+      .filter-todo{
+        .btn-style{
+          border-radius: 20px;
+          background-color: #33cccc;
+          border:none;
+          font-size: 12px;
+          padding: 10px;
+        }
+        .space{
+          margin: 15px;
+        }
+        .progress-todo{
+          margin: 0 auto;
+          width: 500px;
+          border: 1px #33cccc solid;
+        }
+      }
+      .list-todo-header{
+        padding: 10px 0;
+        margin-top: 20px;
+        border-radius: 10px;
+        color:  #33cccc;
+        background-color: white;
+        text-align: left;
+        .done{
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+          padding: 8px;
+          margin: 0 10px;
+          width: 10%;
+          :hover{
+            cursor: pointer;
+          }
+        }
+        .detail{
+          display: inline-block;
+          vertical-align: top;
+          width: 72%;
+          word-wrap: break-word;
+          overflow: auto;
+          .description-text{
+            color: grey;
+            font-size:12px;
+          }
+        }
+        .button-right{
+          display: inline-block;
+          width:15%;
+          vertical-align: top;
+          text-align: center;
+          :hover{
+            cursor: pointer;
+        }
+          .remove{
+            display: inline-block;
+            margin-right: 10px;
+            padding: 8px;
+          }
+          .edit{
+            display: inline-block;
+            padding: 8px;
+          }
+        }
+      }
+      .list-content-edit{
+         padding: 10px;
+         margin-top: 5px;
+         border-radius: 10px;
+         color:  #33cccc;
+         background-color: white;
+         text-align: left;
+         .edit-info{
+           margin-bottom:5px;
+         }
+      }
+    }
